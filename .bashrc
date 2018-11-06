@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 export PATH=$PATH:~/anaconda3/bin:$PATH
 source $HOME/enhancd/init.sh
+alias hg='history | grep'
