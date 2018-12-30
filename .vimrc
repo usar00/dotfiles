@@ -77,3 +77,5 @@ nnoremap sB :<C-u>Unite buffer -buffer-name=file<CR>
     set backspace=indent,eol,start
     set wildmenu
 
+colorscheme murphy
+set noswapfile
