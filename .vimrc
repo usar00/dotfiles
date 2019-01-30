@@ -3,22 +3,23 @@ set title
 set showmatch
 syntax on
 "indent
-set tabstop=4
+set tabstop=2
 set smartindent
 "search seting
 set ignorecase
 set smartcase
 set wrapscan
 "move in insert
-nnoremap <C-j> <C-d>
-nnoremap <C-k> <C-u>
-nnoremap <S-j> <C-f>
-nnoremap <S-k> <C-b>
+inoremap <silent> jj <ESC>
+""nnoreaamap <C-j> <C-d>
+""nnoremap <C-k> <C-u>
+""nnoremap <S-j> f>
+""nnoremap <S-k> <C-b>
 "auto
 inoremap { {}<Left>
 inoremap ( ()<Left>
 inoremap [ []<Left>
-inoremap < <><Left>
+"inoremap < <><Left
 inoremap ' ''<Left>
 inoremap " ""<Left>
 inoremap {<CR> {<CR>}<Esc><S-o>
@@ -63,9 +64,9 @@ nnoremap sB :<C-u>Unite buffer -buffer-name=file<CR>
 ":auFileType f90 :set dictionary=$HOME/.vim/dict/f90.dict
     set title
     set ambiwidth=double
-    set tabstop=4
+    set tabstop=2
     set expandtab
-    set shiftwidth=4
+    set shiftwidth=2
     set smartindent
     set list
 ""    set listchars=tab:≫-,trail:-,eol:?,extends:≫,precedes:≪,nbsp:%
