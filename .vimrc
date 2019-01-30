@@ -11,6 +11,7 @@ set smartcase
 set wrapscan
 "move in insert
 inoremap <silent> jj <ESC>
+inoremap <silent> nn <C-p>
 ""nnoreaamap <C-j> <C-d>
 ""nnoremap <C-k> <C-u>
 ""nnoremap <S-j> f>
